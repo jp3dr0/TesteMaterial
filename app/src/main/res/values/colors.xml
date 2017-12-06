@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#109D58</color>
+    <color name="colorPrimaryDark">#0A8043</color>
+    <color name="colorAccent">#17ce6f</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondText">#999</color>
+    <color name="coloLink">#1ea4f7</color>
+    <color name="status_bar_color_selected">#7C7C7C</color>
+    <color name="selected_item_icon_color">#757575</color>
+</resources>

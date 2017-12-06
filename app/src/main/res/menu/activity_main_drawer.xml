@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/menu_one"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favoritos"
+            android:contentDescription="Mostra os itens favoritos."
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="Favoritos" />
+        <item
+            android:id="@+id/nav_recentes"
+            android:contentDescription="Mostra os itens recentes."
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="Recentes" />
+        <item
+            android:id="@+id/nav_adicionar"
+            android:contentDescription="Adicionar um novo item."
+            android:icon="@drawable/ic_add_black_24dp"
+            android:title="Adicionar" />
+        <item
+            android:id="@+id/nav_remover"
+            android:contentDescription="Remover um item."
+            android:icon="@drawable/ic_delete_black_24dp"
+            android:title="Remover" />
+    </group>
+
+    <!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+    -->
+
+    <group
+        android:id="@+id/menu_two"
+        android:checkableBehavior="single"
+        android:enabled="true">
+        <item
+            android:id="@+id/nav_retiradas"
+            android:title="Retiradas" />
+        <item
+            android:id="@+id/nav_devolucao"
+            android:title="Devolução" />
+    </group>
+
+
+
+
+    <group
+        android:id="@+id/menu_three"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_vidrarias"
+            android:title="Estoque Vidrarias" />
+        <item
+            android:id="@+id/nav_reagentes"
+            android:title="Estoque Reagentes" />
+    </group>
+
+    <item
+        android:id="@+id/nav_sair"
+        android:title="Sair" />
+
+</menu>
